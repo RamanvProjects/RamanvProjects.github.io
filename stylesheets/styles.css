@@ -1,5 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+/* Just add a class to the element you want to spin... */
+@-webkit-keyframes spinRight{
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinLeft{
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(-360deg);}
+}
+
+.rotateRightHover:hover{
+    -webkit-animation: spinRight 1s 1 linear
+}
+
+.rotateLeftHover:hover{
+    -webkit-animation: spinLeft 1s 1 linear
+}
+
+.rotateRighClick:active{
+    -webkit-animation: spinRight 1s 1 linear
+}
+
+.rotateLeftClick:active{
+    -webkit-animation: spinLeft 1s 1 linear
+}
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
