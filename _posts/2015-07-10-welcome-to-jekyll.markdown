@@ -4,7 +4,7 @@ comments: true
 title:  "First Post! And some Haskell Project Euler Solutions (Casual)"
 excerpt: "Testing out the new format plus a couple of Project Euler problems in Haskell"
 date:   2015-07-10 13:26:00
-categories: Haskell Project Euler Material Design
+categories: Euler Haskell
 ---
 Hello World,
 

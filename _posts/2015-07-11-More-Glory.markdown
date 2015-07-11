@@ -2,7 +2,7 @@
 layout: post
 title:  "Day Two. Some interesting things"
 date:   2015-07-11 11:43:00
-categories: Astronomy Haskell Machine Learning Stories etc etc  
+categories: Astronomy Haskell Machine Learning
 ---
 
 Quick someone remind me to fix the RSS feed. Eh. Probably not important. 
