@@ -6,9 +6,9 @@ categories: Haskell Project Euler Material Design
 ---
 Hello World,
 
-This is my first post using the Jekyll system. I would recommend it. Check it out [here][jekyll]. It's pretty easy to use.
+This is my first post in a nice blogging system. I will update the CSS later to be more interesting but all in all it's pretty fun.
 
-So to test out a few things and to show off some Haskell I have been learning, I will be doing a few of the first (pretty easy) Project Euler problems and give explanations of the syntax.
+So to test it out a few things and to show off some Haskell I have been learning, I will be doing a few of the first (pretty easy) Project Euler problems and give explanations of the syntax.
 
 ### Problem 1
 
