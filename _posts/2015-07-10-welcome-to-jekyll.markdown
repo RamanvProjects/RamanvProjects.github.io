@@ -42,12 +42,12 @@ Prime factorization problems are pretty fun and there are many ways to approach 
 {% highlight haskell %}
 primeFactors :: Int -> [Int]
 primeFactors n = ps n 2
-			where
-				ps n previous
-					| previous * previous > n = [n]
-					| r == 0				  = previous:ps q previous 
-					| otherwise				  = ps n (previous + 1)
-				where (q, r) = n `divMod` previous
+	where
+		ps n previous
+			| previous * previous > n = [n]
+			| r == 0				  = previous:ps q previous 
+			| otherwise				  = ps n (previous + 1)
+		where (q, r) = n `divMod` previous
 {% endhighlight %}
 
 This is kind middling in terms of speed. It has an interesting Big-O time which is an exercize in itself to figure out.
@@ -57,12 +57,12 @@ But let's say for the sake of argument that we had an infinite list of primes. T
 {% highlight haskell %}
 primeFactors :: Int -> [Int]
 primeFactors n = ps n primes
-			where
-				ps n xs@(y:ys)
-					| y*y > n = [n]
-					| r == 0				  = previous:ps q xs 
-					| otherwise				  = ps n ys
-				where (q, r) = n `divMod` y
+	where
+		ps n xs@(y:ys)
+			| y*y > n = [n]
+			| r == 0				  = previous:ps q xs 
+			| otherwise				  = ps n ys
+		where (q, r) = n `divMod` y
 {% endhighlight %}
 
 But we don't have an infinite list of primes... Or _do_ we?!?!?! Well no... But with the function above, we can make one.
@@ -77,12 +77,12 @@ This is actually a rather useful way of producing an arbitrarily long list of pr
 {% highlight haskell %}
 primeFactors :: Int -> [Int]
 primeFactors n = ps n primes
-			where
-				ps n xs@(y:ys)
-					| y*y > n = [n]
-					| r == 0				  = previous:ps q xs 
-					| otherwise				  = ps n ys
-				where (q, r) = n `divMod` y
+	where
+		ps n xs@(y:ys)
+			| y*y > n = [n]
+			| r == 0				  = previous:ps q xs 
+			| otherwise				  = ps n ys
+		where (q, r) = n `divMod` y
 
 primes :: [Int]
 primes = 2:filter (null . tail . primeFactors) [3,5..]
