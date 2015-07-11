@@ -12,21 +12,22 @@ So to test out a few things and to show off some Haskell I have been learning, I
 
 ### Problem 1
 
-` If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-Find the sum of all the multiples of 3 or 5 below 1000.`
+>Find the sum of all the multiples of 3 or 5 below 1000.`
 
 This essentially amounts to FizzBuzz except with summation. There are more math-y ways to do this problem but I will just use filters with Haskell. The final solution is below:
 
 {% highlight haskell %}
--- Returns 
+-- Returns a list of the multiples of three and five under n 
 multies35 :: Int -> [Int]
-#=> prints 'Hi, Tom' to STDOUT.
+multies35 n = filter (\x -> x `mod` 3 == 0 || x `mod` 5 == 0) [1..n]
+
+main :: IO ()
+main = print . multies35 1000
 {% endhighlight %}
 
-
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Pretty boring. But it works fine!
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
