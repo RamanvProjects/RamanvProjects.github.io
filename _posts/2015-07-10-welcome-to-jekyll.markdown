@@ -45,8 +45,8 @@ primeFactors n = ps n 2
 	where
 		ps n previous
 			| previous * previous > n = [n]
-			| r == 0				  = previous:ps q previous 
-			| otherwise				  = ps n (previous + 1)
+			| r == 0  = previous:ps q previous 
+			| otherwise	 = ps n (previous + 1)
 		where (q, r) = n `divMod` previous
 {% endhighlight %}
 
@@ -60,8 +60,8 @@ primeFactors n = ps n primes
 	where
 		ps n xs@(y:ys)
 			| y*y > n = [n]
-			| r == 0				  = previous:ps q xs 
-			| otherwise				  = ps n ys
+			| r == 0 = previous:ps q xs 
+			| otherwise = ps n ys
 		where (q, r) = n `divMod` y
 {% endhighlight %}
 
@@ -80,8 +80,8 @@ primeFactors n = ps n primes
 	where
 		ps n xs@(y:ys)
 			| y*y > n = [n]
-			| r == 0				  = previous:ps q xs 
-			| otherwise				  = ps n ys
+			| r == 0 = previous:ps q xs 
+			| otherwise	= ps n ys
 		where (q, r) = n `divMod` y
 
 primes :: [Int]
