@@ -92,6 +92,4 @@ main = print . sum . primeFactors 600851475143
 {% endhighlight %}
 
 That's all for now folks
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+
