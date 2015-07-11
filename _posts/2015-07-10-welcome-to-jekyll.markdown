@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "First Post! And some Haskell Project Euler Solutions (Casual)"
 date:   2015-07-10 13:26:00
-categories: jekyll update
+categories: Haskell Project Euler Material Design
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+Hello World,
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This is my first post using the Jekyll system. I would recommend it. Check it out [here][jekyll]. It's pretty easy to use.
 
+So to test out a few things and to show off some Haskell I have been learning, I will
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
