@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is my personal website and blog. I am currently a university student for a BS in Computer Science. This site shows my forrays into arbitrarily complex abstract puzzles and some more "real world" examples. If you are looking to hire, check out my resume [here](Vivek_Resume\(2\).pdf).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[Link to resume](Vivek_Resume\(2\).pdf)

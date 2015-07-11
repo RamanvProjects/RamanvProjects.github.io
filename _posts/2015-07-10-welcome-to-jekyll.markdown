@@ -24,7 +24,7 @@ multies35 :: Int -> [Int]
 multies35 n = filter (\x -> x `mod` 3 == 0 || x `mod` 5 == 0) [1..n]
 
 main :: IO ()
-main = print . multies35 1000
+main = print . sum . multies35 1000
 {% endhighlight %}
 
 Pretty boring. But it works fine!
