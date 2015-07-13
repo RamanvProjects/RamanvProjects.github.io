@@ -4,7 +4,7 @@ title: Showcase Index
 permalink: /showcase/
 ---
 
-On this page will go cool project summaries and tutorials. It's a permanent index for cool things. For now, however, have the safety pig.
+On this page will go cool project summaries and tutorials. It's a permanent index for cool things. For now, however, have the safety pig (found somewhere on Quora).
 
 <pre>
                          _
