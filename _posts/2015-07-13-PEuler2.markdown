@@ -1,11 +1,12 @@
 ---
+
 layout: post
 title:  "Day Three. Surprise, More Project Euler"
 date:   2015-07-11 11:43:00
 categories: Euler Haskell
 ---
 
->Hey you, out there in the cold getting lonely getting old can you help me? 
+>Hey you, out there in the cold getting lonely getting old can you help me? (Pink Floyd) 
 
 And surprise, more Project Euler!
 
