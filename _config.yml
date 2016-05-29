@@ -1,11 +1,11 @@
 # Site settings
 title: Personal Projects and Puzzles, The Blog
-email: ramanv@cs.washington.edu
+email: vkr@brown.edu
 description: > # this means to ignore newlines until "baseurl:"
     Just a ton of awesome projects done by yours truly. Check out
     my GitHub and/or the rest of my website, by Vivek Ramanujan
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://vivekr.me" # the base hostname & protocol for your site
+url: "http://ramanv.me" # the base hostname & protocol for your site
 github_username:  RamanvProjects
 
 # Build settings
